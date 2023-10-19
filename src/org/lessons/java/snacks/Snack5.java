@@ -12,7 +12,7 @@ public class Snack5 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = 0; i <= N; i++) {
             int cubo = i * i * i;
             System.out.println("Il cubo di " + i + " è " + cubo);
         }

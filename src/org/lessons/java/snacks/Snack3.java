@@ -15,7 +15,7 @@ public class Snack3 {
         int sum = 0;
 
         // Chiedo 10 numeri all'utente
-        for (int i = 1; i <= 10 ; i++) {
+        for (int i = 0; i <= 10 ; i++) {
             System.out.print("Inserisci il " + i + "° numero: ");
             int number = input.nextInt();
             sum += number;

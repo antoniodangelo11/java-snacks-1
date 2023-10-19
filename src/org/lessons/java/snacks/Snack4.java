@@ -12,7 +12,7 @@ public class Snack4 {
         Scanner input = new Scanner(System.in);
 
         // Chiedo 6 numeri all'utente
-        for (int i = 1; i <= 6 ; i++) {
+        for (int i = 0; i <= 6 ; i++) {
             System.out.print("Inserisci il " + i + "° numero: ");
             int number = input.nextInt();
 
