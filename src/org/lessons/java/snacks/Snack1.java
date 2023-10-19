@@ -18,6 +18,7 @@ public class Snack1 {
         System.out.print("Inserisci il secondo numero: ");
         int secondNumber = input.nextInt();
 
+        // Condizioni in qui stabilisco il numero maggiore
         if (firstNumber > secondNumber) {
             System.out.print("Il numero è maggiore: " + firstNumber);
         } else if (secondNumber > firstNumber) {
@@ -26,6 +27,7 @@ public class Snack1 {
             System.out.print("I due numeri sono uguali.");
         }
 
+        // Chiudo lo Scanner
         input.close();
     }
 }
