@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /* Snack1
 L’utente inserisce due numeri in successione. Il software stampa il maggiore.
- */
+*/
 public class Snack1 {
     public static void main(String[] args) {
 

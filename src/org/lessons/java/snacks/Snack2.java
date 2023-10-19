@@ -7,6 +7,7 @@ L’utente inserisce due parole in successione. Il software stampa prima la paro
 */
 public class Snack2 {
     public static void main(String[] args) {
+
         // Inizializzo lo Scanner
         Scanner input = new Scanner(System.in);
 
