@@ -10,6 +10,7 @@ public class Snack5 {
 
         // Inizializzo lo Scanner
         Scanner input = new Scanner(System.in);
+        System.out.print("Inserisci un numero: ");
         int N = input.nextInt();
 
         for (int i = 0; i <= N; i++) {
